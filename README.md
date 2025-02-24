@@ -26,3 +26,6 @@ EXAMPLE OUTPUT
   "egg_cycles": "35"
 }
 ```
+
+# UML Sequence Diagram Reference
+UMLDesign.pdf
