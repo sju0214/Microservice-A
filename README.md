@@ -11,14 +11,18 @@ Returns...
 - egg cycles (check species-list under "hatch_counter") Can be dropped if you don't have the time
 
 EXAMPLE INPUT
+```
 {
   "region": "Paldea"
 }
+```
 
 EXAMPLE OUTPUT
+```
 {
   "name": "tatsugiri",
   "id": "978",
   "types": ["dragon", "ice"],
   "egg_cycles": "35"
 }
+```
