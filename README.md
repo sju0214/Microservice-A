@@ -28,4 +28,5 @@ EXAMPLE OUTPUT
 ```
 
 # UML Sequence Diagram Reference
-UMLDesign.pdf
+![alt text](UMLDesign.pdf)
+
