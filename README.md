@@ -25,9 +25,9 @@ EXAMPLE OUTPUT
   "types": ["dragon", "ice"],
   "egg_cycles": "35"
 }
-```
+```<img width="697" alt="Screenshot 2025-02-23 at 8 26 54 PM" src="https://github.com/user-attachments/assets/e9f50b55-eed0-4883-9e83-4b84fc7f78b1" />
+
 
 # UML Sequence Diagram Reference
-UMLDesign.pdf
 ![alt text](UMLDesign.pdf)
 
