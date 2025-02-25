@@ -1,14 +1,23 @@
 # Random Pokemon API spec 
 
+After cloning git repo: 
+```
+cd microserviceA
+npm install
+npm run dev
+```
+
 Routes:
 - Random Pokemon in a given region
-- Region is name (e.g. "Kanto", check pokedex)
+
+Go into http://localhost:3000/{region}
+- Region is region name (e.g. "Kanto")
 
 Returns...
-- Name (species name via species-list in "en")
-- id (POKEMON ID, not pokedex number, so check pokedex)
-- types (string list)
-- egg cycles (check species-list under "hatch_counter") Can be dropped if you don't have the time
+- Name (Random Pokemon's Name)
+- id (POKEMON ID, not pokedex number)
+- types (string list describing type of Pokemon)
+- egg cycles (check species-list under "hatch_counter")
 
 EXAMPLE INPUT
 ```
