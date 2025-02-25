@@ -10,7 +10,7 @@ npm run dev
 Routes:
 - Random Pokemon in a given region
 
-Go into http://localhost:3000/{region}
+Go into http://localhost:3000/pokemon/{region}
 - Region is region name (e.g. "Kanto")
 
 Returns...
