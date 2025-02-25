@@ -37,6 +37,12 @@ EXAMPLE OUTPUT
 ```
 
 # UML Sequence Diagram Reference
-<img width="697" alt="Screenshot 2025-02-23 at 8 26 54 PM" src="https://github.com/user-attachments/assets/e9f50b55-eed0-4883-9e83-4b84fc7f78b1" />
+```mermaid
+sequenceDiagram
+    Program making a request->>Random Pokemon Microservice: Send request for random Pokemon from specified region
+    Pokédex API-->>Random Pokemon Microservice: Random Pokemon Information and Species Data
+    Random Pokemon Microservice->>Program making a request: Returns Pokemon name, ID, Type, and Egg Cycle of generated random Pokemon
+```
+
 
 
