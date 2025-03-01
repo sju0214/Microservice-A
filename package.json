@@ -2,7 +2,9 @@
   "name": "microservice-a",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "format": "prettier ./src -w",
+    "lint": "markdownlint-cli2 \"*.md\" --fix"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.8",
@@ -10,6 +12,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "markdownlint-cli2": "^0.17.2",
+    "prettier": "^3.5.2",
     "tsx": "^4.7.1"
   }
 }
