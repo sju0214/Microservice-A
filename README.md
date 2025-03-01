@@ -2,7 +2,7 @@
 
 After cloning git repo:
 
-```
+```bash
 cd microserviceA
 npm install
 npm run dev
@@ -25,7 +25,7 @@ Returns...
 
 EXAMPLE INPUT
 
-```
+```json
 {
   "region": "Paldea"
 }
@@ -33,7 +33,7 @@ EXAMPLE INPUT
 
 EXAMPLE OUTPUT
 
-```
+```json
 {
   "name": "tatsugiri",
   "id": "978",
