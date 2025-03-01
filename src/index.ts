@@ -6,7 +6,7 @@ const P = new Pokedex();
 
 const app = new Hono();
 
-// Get random pokemon from specified region
+// Get random Pokemon from specified region
 app.get("/pokemon/:region", async (c) => {
   const region = c.req.param("region");
   const pokedex = await P.getPokedexByName(region).catch(() => undefined);
