@@ -42,7 +42,7 @@ EXAMPLE OUTPUT
 }
 ```
 
-# UML Sequence Diagram Reference
+## UML Sequence Diagram Reference
 
 ```mermaid
 sequenceDiagram
