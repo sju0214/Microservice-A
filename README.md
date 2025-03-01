@@ -1,6 +1,7 @@
-# Random Pokemon API spec 
+# Random Pokemon API spec
 
-After cloning git repo: 
+After cloning git repo:
+
 ```
 cd microserviceA
 npm install
@@ -8,18 +9,22 @@ npm run dev
 ```
 
 Routes:
+
 - Random Pokemon in a given region
 
 Go into http://localhost:3000/pokemon/{region}
+
 - Region is region name (e.g. "Kanto")
 
 Returns...
+
 - Name (Random Pokemon's Name)
 - id (POKEMON ID, not pokedex number)
 - types (string list describing type of Pokemon)
 - egg cycles (check species-list under "hatch_counter")
 
 EXAMPLE INPUT
+
 ```
 {
   "region": "Paldea"
@@ -27,6 +32,7 @@ EXAMPLE INPUT
 ```
 
 EXAMPLE OUTPUT
+
 ```
 {
   "name": "tatsugiri",
