@@ -12,7 +12,7 @@ Routes:
 
 - Random Pokemon in a given region
 
-Go into http://localhost:3000/pokemon/{region}
+Go into <http://localhost:3000/{region}>
 
 - Region is region name (e.g. "Kanto")
 
