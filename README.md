@@ -1,33 +1,39 @@
-# Random Pokemon API spec 
+# Random Pokemon API spec
 
-After cloning git repo: 
-```
+After cloning git repo:
+
+```bash
 cd microserviceA
 npm install
 npm run dev
 ```
 
 Routes:
+
 - Random Pokemon in a given region
 
-Go into http://localhost:3000/pokemon/{region}
+Go into <http://localhost:3000/{region}>
+
 - Region is region name (e.g. "Kanto")
 
 Returns...
+
 - Name (Random Pokemon's Name)
 - id (POKEMON ID, not pokedex number)
 - types (string list describing type of Pokemon)
 - egg cycles (check species-list under "hatch_counter")
 
 EXAMPLE INPUT
-```
+
+```json
 {
   "region": "Paldea"
 }
 ```
 
 EXAMPLE OUTPUT
-```
+
+```json
 {
   "name": "tatsugiri",
   "id": "978",
@@ -36,7 +42,11 @@ EXAMPLE OUTPUT
 }
 ```
 
-# UML Sequence Diagram Reference
+## UML Sequence Diagram Reference
 
-<img width="806" alt="Screenshot 2025-02-24 at 7 36 09 PM" src="https://github.com/user-attachments/assets/87dbc2bb-3762-4d08-89f8-5098529df1a9" />
-
+```mermaid
+sequenceDiagram
+    Program making a request->>Random Pokemon Microservice: Send request for random Pokemon from specified region
+    Pokédex API-->>Random Pokemon Microservice: Random Pokemon Information and Species Data
+    Random Pokemon Microservice->>Program making a request: Returns Pokemon name, ID, Type, and Egg Cycle of generated random Pokemon
+```
